@@ -46,5 +46,5 @@ while continuar in positivos:
     if espec == palavra_sort:
         print('Parábens você acertou!')
     elif espec != palavra_sort:
-        print('Que pena! Você errou!')
+        print('Que pena! Você errou! A palavra era \033[1;32m{0}\033[0;37m'.format(palavra_sort))
     continuar = input('Deseja continuar jogando? ')
