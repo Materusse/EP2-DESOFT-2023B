@@ -5,7 +5,7 @@ from Filtra_palavras import *
 from Diagrama import *
 from Cor import *
 
-positivos = ['Sim','sim','S','SIM']
+positivos = ['Sim','sim','S','SIM','s']
 continuar = 'sim'
 while continuar in positivos:
     n = random.randint(4,6)
